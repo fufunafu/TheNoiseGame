@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+*.xcuserstate
+*.xcuserdatad
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+build/
+
+# Xcode User-specific files
+project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# MATLAB
+*.asv
+*.m~
+
+# Temporary files
+*~
+*.swp
+*.swo
+.#*
+
+# Analysis Results (optional - remove if you want to track results)
+# TheNoiseGame/ANALYSIS/analysis_results/
+# TheNoiseGame/ANALYSIS/export-data/

@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D1E2A2A2B5F1234567890AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E2A292B5F1234567890AA /* AppDelegate.swift */; };
+		1D1E2A2C2B5F1234567890AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E2A2B2B5F1234567890AC /* SceneDelegate.swift */; };
+		1D1E2A312B5F1234567890B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1E2A2F2B5F1234567890B0 /* Main.storyboard */; };
+		1D1E2A362B5F1234567890B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1E2A342B5F1234567890B5 /* LaunchScreen.storyboard */; };
+		1D1E2A3D2B5F1234567890BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1E2A3E2B5F1234567890BF /* Assets.xcassets */; };
+		1D1E2A652B5F1234567890E5 /* TheNoiseGameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E2A642B5F1234567890E6 /* TheNoiseGameModels.swift */; };
+		1D1E2A672B5F1234567890E7 /* TheNoiseGameCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E2A662B5F1234567890E8 /* TheNoiseGameCore.swift */; };
+		1D1E2A6B2B5F1234567890EB /* TheNoiseGameFlickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E2A6A2B5F1234567890EC /* TheNoiseGameFlickerView.swift */; };
+		567129CF2EBBA81A000393FC /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567129CD2EBBA81A000393FC /* ViewController+Extensions.swift */; };
+		567129D02EBBA81A000393FC /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567129CC2EBBA81A000393FC /* Double+Extensions.swift */; };
+		567129ED2EBBA86F000393FC /* DisplayTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567129EB2EBBA86F000393FC /* DisplayTicker.swift */; };
+		567129F82EBBAF96000393FC /* VisualGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567129F62EBBAF96000393FC /* VisualGeometry.swift */; };
+		56712A022EBBB7C1000393FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56712A002EBBB7C1000393FC /* ViewController.swift */; };
+		56712A042EBBC654000393FC /* PerformanceDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56712A032EBBC654000393FC /* PerformanceDashboardView.swift */; };
+		56712A0B2EBBE083000393FC /* PsychometricPlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56712A082EBBE083000393FC /* PsychometricPlotView.swift */; };
+		56712A0D2EBBE083000393FC /* CheckerboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56712A072EBBE083000393FC /* CheckerboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D1E2A262B5F1234567890A7 /* TheNoiseGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNoiseGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1E2A292B5F1234567890AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D1E2A2B2B5F1234567890AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1D1E2A302B5F1234567890B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D1E2A352B5F1234567890B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D1E2A372B5F1234567890B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D1E2A3E2B5F1234567890BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D1E2A642B5F1234567890E6 /* TheNoiseGameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNoiseGameModels.swift; sourceTree = "<group>"; };
+		1D1E2A662B5F1234567890E8 /* TheNoiseGameCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNoiseGameCore.swift; sourceTree = "<group>"; };
+		1D1E2A6A2B5F1234567890EC /* TheNoiseGameFlickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNoiseGameFlickerView.swift; sourceTree = "<group>"; };
+		567129CC2EBBA81A000393FC /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		567129CD2EBBA81A000393FC /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
+		567129EB2EBBA86F000393FC /* DisplayTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTicker.swift; sourceTree = "<group>"; };
+		567129F62EBBAF96000393FC /* VisualGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualGeometry.swift; sourceTree = "<group>"; };
+		56712A002EBBB7C1000393FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56712A032EBBC654000393FC /* PerformanceDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceDashboardView.swift; sourceTree = "<group>"; };
+		56712A072EBBE083000393FC /* CheckerboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerboardView.swift; sourceTree = "<group>"; };
+		56712A082EBBE083000393FC /* PsychometricPlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychometricPlotView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D1E2A232B5F1234567890A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D1E2A1D2B5F123456789099 = {
+			isa = PBXGroup;
+			children = (
+				1D1E2A282B5F1234567890A9 /* TheNoiseGame */,
+				1D1E2A272B5F1234567890A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D1E2A272B5F1234567890A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D1E2A262B5F1234567890A7 /* TheNoiseGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D1E2A282B5F1234567890A9 /* TheNoiseGame */ = {
+			isa = PBXGroup;
+			children = (
+				56712A0A2EBBE083000393FC /* Views */,
+				56712A032EBBC654000393FC /* PerformanceDashboardView.swift */,
+				56712A012EBBB7C1000393FC /* ViewControllers */,
+				567129F72EBBAF96000393FC /* Utils */,
+				567129EC2EBBA86F000393FC /* Core */,
+				567129CE2EBBA81A000393FC /* Extensions */,
+				1D1E2A292B5F1234567890AA /* AppDelegate.swift */,
+				1D1E2A2B2B5F1234567890AC /* SceneDelegate.swift */,
+				1D1E2A642B5F1234567890E6 /* TheNoiseGameModels.swift */,
+				1D1E2A662B5F1234567890E8 /* TheNoiseGameCore.swift */,
+				1D1E2A6A2B5F1234567890EC /* TheNoiseGameFlickerView.swift */,
+				1D1E2A2F2B5F1234567890B0 /* Main.storyboard */,
+				1D1E2A342B5F1234567890B5 /* LaunchScreen.storyboard */,
+				1D1E2A3E2B5F1234567890BF /* Assets.xcassets */,
+				1D1E2A372B5F1234567890B8 /* Info.plist */,
+			);
+			path = TheNoiseGame;
+			sourceTree = "<group>";
+		};
+		567129CE2EBBA81A000393FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				567129CC2EBBA81A000393FC /* Double+Extensions.swift */,
+				567129CD2EBBA81A000393FC /* ViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		567129EC2EBBA86F000393FC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				567129EB2EBBA86F000393FC /* DisplayTicker.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		567129F72EBBAF96000393FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				567129F62EBBAF96000393FC /* VisualGeometry.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		56712A012EBBB7C1000393FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				56712A002EBBB7C1000393FC /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		56712A0A2EBBE083000393FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56712A072EBBE083000393FC /* CheckerboardView.swift */,
+				56712A082EBBE083000393FC /* PsychometricPlotView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D1E2A252B5F1234567890A6 /* TheNoiseGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1E2A3A2B5F1234567890BB /* Build configuration list for PBXNativeTarget "TheNoiseGame" */;
+			buildPhases = (
+				1D1E2A222B5F1234567890A3 /* Sources */,
+				1D1E2A232B5F1234567890A4 /* Frameworks */,
+				1D1E2A242B5F1234567890A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheNoiseGame;
+			productName = TheNoiseGame;
+			productReference = 1D1E2A262B5F1234567890A7 /* TheNoiseGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D1E2A1E2B5F12345678909A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					1D1E2A252B5F1234567890A6 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1D1E2A212B5F1234567890A1 /* Build configuration list for PBXProject "TheNoiseGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D1E2A1D2B5F123456789099;
+			productRefGroup = 1D1E2A272B5F1234567890A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D1E2A252B5F1234567890A6 /* TheNoiseGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D1E2A242B5F1234567890A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1E2A362B5F1234567890B7 /* LaunchScreen.storyboard in Resources */,
+				1D1E2A312B5F1234567890B2 /* Main.storyboard in Resources */,
+				1D1E2A3D2B5F1234567890BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D1E2A222B5F1234567890A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1E2A2A2B5F1234567890AB /* AppDelegate.swift in Sources */,
+				56712A0B2EBBE083000393FC /* PsychometricPlotView.swift in Sources */,
+				56712A0D2EBBE083000393FC /* CheckerboardView.swift in Sources */,
+				1D1E2A2C2B5F1234567890AD /* SceneDelegate.swift in Sources */,
+				56712A042EBBC654000393FC /* PerformanceDashboardView.swift in Sources */,
+				567129ED2EBBA86F000393FC /* DisplayTicker.swift in Sources */,
+				1D1E2A652B5F1234567890E5 /* TheNoiseGameModels.swift in Sources */,
+				1D1E2A672B5F1234567890E7 /* TheNoiseGameCore.swift in Sources */,
+				567129CF2EBBA81A000393FC /* ViewController+Extensions.swift in Sources */,
+				56712A022EBBB7C1000393FC /* ViewController.swift in Sources */,
+				567129F82EBBAF96000393FC /* VisualGeometry.swift in Sources */,
+				567129D02EBBA81A000393FC /* Double+Extensions.swift in Sources */,
+				1D1E2A6B2B5F1234567890EB /* TheNoiseGameFlickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D1E2A2F2B5F1234567890B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D1E2A302B5F1234567890B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D1E2A342B5F1234567890B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D1E2A352B5F1234567890B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D1E2A382B5F1234567890B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PQ884XTDXF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D1E2A392B5F1234567890BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PQ884XTDXF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D1E2A3B2B5F1234567890BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheNoiseGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TheNoiseGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D1E2A3C2B5F1234567890BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheNoiseGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TheNoiseGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D1E2A212B5F1234567890A1 /* Build configuration list for PBXProject "TheNoiseGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1E2A382B5F1234567890B9 /* Debug */,
+				1D1E2A392B5F1234567890BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D1E2A3A2B5F1234567890BB /* Build configuration list for PBXNativeTarget "TheNoiseGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1E2A3B2B5F1234567890BC /* Debug */,
+				1D1E2A3C2B5F1234567890BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D1E2A1E2B5F12345678909A /* Project object */;
+}
