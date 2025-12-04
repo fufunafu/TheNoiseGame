@@ -204,7 +204,7 @@ Version 1.0, November 2025
 ## Support & Contact
 
 For questions, bug reports, or feature requests:
-- Contact: [Your research team contact]
+- Contact: fu.gao@mail.mcgill.ca
 - Lab: Swamy Lab, McGill University
 
 ## License
